@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://chengcxy.github.io/'
 languageCode = 'zh-cn'
-title = 'Hugo Book'
+title = 'chengcxy笔记'
 theme = 'hugo-book'
 [params]
   BookSection = 'book'
