@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'Hugo Book'
+theme = 'hugo-book'
+[params]
+  BookSection = 'book'
