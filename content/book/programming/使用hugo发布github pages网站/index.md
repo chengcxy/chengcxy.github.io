@@ -38,10 +38,10 @@ git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 theme = "hugo-book"
 ```
 
-在github上新建仓库 langwan.github.io，关联本地站点
+在github上新建仓库 chengcxy.github.io，关联本地站点
 
 ```terminal
-git remote add origin git@github.com:langwan/langwan.github.io.git
+git remote add origin git@github.com:chengcxy/chengcxy.github.io.git
 ```
 
 创建 github action 脚本
@@ -129,8 +129,8 @@ git add .
 git commit -m "init site"
 ```
 
-打开站点 https://langwan.github.io/ 完成。
+打开站点 https://chengcxy.github.io/ 完成。
 
-## 完整视频
+## hugo中文文档
 
-[用hugo搭建github免费站点](https://www.bilibili.com/video/BV1cV4y157j8)
+[用hugo搭建github免费站点](https://www.gohugo.org/)
