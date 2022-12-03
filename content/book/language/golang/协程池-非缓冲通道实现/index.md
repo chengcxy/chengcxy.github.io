@@ -29,10 +29,9 @@ func worker(wid int, jobs chan int, wg *sync.WaitGroup) {
 	}
 }
 
-func genTasks() chan int {
+func genTasks(chunks int) chan int {
 	jobs := make(chan int)
 	go func() {
-		chunks := 100
 		for i := 0; i < chunks; i++ {
 			jobs <- i
 		}
@@ -42,7 +41,8 @@ func genTasks() chan int {
 }
 
 func main() {
-	jobs := genTasks()
+	chunks := 100
+	jobs := genTasks(chunks)
 	workers := 5
 	wg := sync.WaitGroup{}
 	wg.Add(workers)
@@ -51,7 +51,6 @@ func main() {
 	}
 	wg.Wait()
 }
-
 ```
 
 ## 输出结果
