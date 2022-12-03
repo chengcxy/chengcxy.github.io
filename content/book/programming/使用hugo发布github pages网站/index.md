@@ -27,7 +27,7 @@ hugo new site chengcxy.github.io
 导入 theme 我喜欢 hugo-book
 
 ```terminal
-cd langwan.github.io
+cd chengcxy.github.io
 git init
 git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 ```
