@@ -163,10 +163,3 @@ ConsumedBytes - 已经传输的文件大小
 
 TotalBytes - 总的大小（也就是文件大小）
 
-## 代码地址
-
-并发分片下载是 langgo 框架的一个 组件
-
-[download组件文档](https://langwan.github.io/langgo/book/components/download/)
-
-[langgo框架](https://github.com/langwan/langgo)
