@@ -109,7 +109,3 @@ freeport(function (err, port) {
 通过 child_process 传参给 backend 启动，backend 内部启动http服务与React通讯。
 
 注意事项：`env: {PATH: process.env.PATH }`这行如果不传递，backend无法拿到PATH环境变量，会产生很多莫名其妙新问题。
-
-## 参考案例
-
-[chimp3](https://github.com/langwan/chimp3) 一个完整的使用 go react electron 构件的跨平台桌面mp3播放器。
