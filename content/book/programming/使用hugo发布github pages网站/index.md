@@ -21,7 +21,7 @@ port install hugo
 创建本地站点
 
 ```terminal
-hugo new site langwan.github.io
+hugo new site chengcxy.github.io
 ```
 
 导入 theme 我喜欢 hugo-book
